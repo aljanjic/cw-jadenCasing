@@ -14,6 +14,6 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 ## Backlog
 
-- ⚠ '"hello" should return "Hello"'
-- ⚠ '"hello world" should return "Hello World"'
+- ✅ '"hello" should return "Hello"'
+- ✅ '"hello world" should return "Hello World"'
 - ⚠ '"How can mirrors be real if our eyes aren't real" should return "How Can Mirrors Be Real If Our Eyes Aren't Real"'
