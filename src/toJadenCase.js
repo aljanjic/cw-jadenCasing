@@ -1,6 +1,7 @@
 function toJadenCase(str) {
-  if (str === 'hello world') return 'Hello World'
-  return 'Hello';
+
+  let words = str.split(' ');
+  console.log(words)
 }
 
 module.exports = toJadenCase;

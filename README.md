@@ -16,4 +16,7 @@ Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 - ✅ '"hello" should return "Hello"'
 - ✅ '"hello world" should return "Hello World"'
-- ⚠ '"How can mirrors be real if our eyes aren't real" should return "How Can Mirrors Be Real If Our Eyes Aren't Real"'
+- ⚠ '"How can mirrors be real if our eyes arent real" should return "How Can Mirrors Be Real If Our Eyes Arent Real"'
+
+
+Split the sentance to array, loop through the array and capitalize first char, join the array to string
