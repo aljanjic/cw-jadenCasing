@@ -1,7 +1,7 @@
 const toJadenCase = require('./toJadenCase');
 
 describe('toJadenCase', () => {
-  it.only('"hello" should return "Hello"', () => {
+  it('"hello" should return "Hello"', () => {
     expect(toJadenCase('hello')).toBe('Hello');
   });
 

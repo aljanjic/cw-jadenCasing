@@ -1,7 +1,13 @@
 function toJadenCase(str) {
 
-  let words = str.split(' ');
-  console.log(words)
+  let result = str
+    .split(' ')
+    .map( word => word[0].toUpperCase() + word.slice(1))
+    .join(' ')
+
+  return result;
+
+
 }
 
 module.exports = toJadenCase;
