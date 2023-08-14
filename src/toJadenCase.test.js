@@ -1,6 +1,18 @@
 const toJadenCase = require('./toJadenCase');
 
 describe('toJadenCase', () => {
+  it('"" should return ""', () => {
+    expect(toJadenCase('')).toBe('');
+  });
+
+  it('"a" should return "A"', () => {
+    expect(toJadenCase('a')).toBe('A');
+  });
+
+  it(' should return ', () => {
+    expect(toJadenCase()).toBe();
+  });
+
   it('"hello" should return "Hello"', () => {
     expect(toJadenCase('hello')).toBe('Hello');
   });
